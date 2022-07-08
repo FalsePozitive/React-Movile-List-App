@@ -17,7 +17,6 @@ const Card = ({movie}) => {
 };
 
 Card.propTypes = {
-    movie: PropTypes.shape({}),
     movie: PropTypes.shape({
     title: PropTypes.string,
     distributor: PropTypes.string,
